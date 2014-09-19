@@ -21,7 +21,7 @@ public class TestCricket {
 		//capability.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		
 		//WebDriver driver = new ChromeDriver(options);
-		driver.get("http://localhost:8080/CricWebApp/login.do");
+		driver.get("http://localhost:8080/CricWebApp-0.0.1-SNAPSHOT/login.do");
 		driver.manage().window().maximize(); 
 		try {
 			Thread.sleep(4000);
