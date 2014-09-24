@@ -38,7 +38,7 @@ public class TestNegativeLogin {
 	public void test_different_login(String uname,String pwd){
 		WebDriver driver=new FirefoxDriver();
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
-		driver.get("http://localhost:8080/CricWebApp/login.do");
+		driver.get("http://localhost:8080/CricWebApp-0.0.1-SNAPSHOT/login.do");
 		driver.findElement(By.name("userName")).sendKeys(uname);
 		driver.findElement(By.name("password")).sendKeys(pwd);
 		driver.findElement(By.tagName("input")).click();

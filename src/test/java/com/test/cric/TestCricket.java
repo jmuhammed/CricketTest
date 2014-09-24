@@ -32,7 +32,7 @@ public class TestCricket {
 	@Before
 	public void setUp(){
 		
-		driver.get("http://localhost:8080/CricWebApp/login.do");
+		driver.get("http://localhost:8080/CricWebApp-0.0.1-SNAPSHOT/login.do");
 		
 	}
 	
